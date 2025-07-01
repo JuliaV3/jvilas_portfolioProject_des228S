@@ -1,0 +1,100 @@
+/* ==== Background ==== */
+html {
+  background: linear-gradient(135deg, #ffb199, #ff9a9e); /* soft pink-orange gradient */
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: #201467;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  min-height: 100vh;       
+  display: flex;
+  flex-direction: column;   
+}
+
+/* ==== Navigation ==== */
+nav {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff6a88;
+}
+
+/* ==== Headings ==== */
+h1 {
+  margin-top: 30px;
+  font-size: 2em;
+}
+
+
+
+/* ==== Framed Photo ==== */
+.framed-photo {
+  width: 180px;
+  margin: 30px 20px 30px 40px; /* top, right, bottom, left */
+  float: left;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+
+.framed-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ==== gif ==== */
+.gif {
+  width: 200px;
+  height: auto;
+
+}
+
+
+
+/* ==== Paragraphs ==== */
+p {
+  text-align: left;
+  font-size: 18px;
+  margin: 10px 40px 10px 220px; /* top, right, bottom, left */
+  line-height: 1.5;
+}
+
+/* ==== Main ==== */
+main {
+  flex: 1;
+}
+
+/* ==== Footer ==== */
+footer {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1em;
+  text-align: center;
+}
+
+footer a {
+  color: #201467;
+  text-decoration: none;
+}
+
+
+

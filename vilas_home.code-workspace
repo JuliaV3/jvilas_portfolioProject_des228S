@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/css_practice_one"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css_practice_one"
+	}
+}
